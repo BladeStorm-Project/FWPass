@@ -1,0 +1,9 @@
+name: FWPass
+main: FWPass\Main
+version: 1.0
+api: 3.0.0
+author: FireworkMC Team
+
+commands:
+ pass:
+  description: "Open Pass"

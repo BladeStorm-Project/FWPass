@@ -36,7 +36,7 @@ class Main extends PluginBase implements Listener{
 
 
         if($this->getServer()->getPluginManager()->getPlugin("FormAPI") === null){
-            $this->getLogger()->critical("FWPass requires OnlineTime, disabling the plugin.");
+            $this->getLogger()->critical("FWPass requires FormAPI, disabling the plugin.");
             $this->getServer()->getPluginManager()->disablePlugin($this);
         }
 
